@@ -1,0 +1,95 @@
+a.nava:link, a.nava:visited {
+    font-family: "'Impact', Charcoal, sans-serif";
+    color: rgb(99, 96, 96);
+    text-decoration: none;
+}
+
+a.nava:hover {
+    color: rgb(161, 158, 158);
+}
+
+a.nava:active {
+    color:rgb(192, 192, 192);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+a:active {
+    color: grey;
+}
+
+ul, li {
+    display: inline;
+    padding: 10px;
+    margin-right:10px;
+}
+ul {
+    position: relative;
+    margin: 0px auto;
+    display: table;
+}
+.nav {
+    position: fixed;
+    background-color: rgb(224, 213, 213);
+    height: 40px;
+    top:0px;
+    box-shadow: 3px 3px 10px;
+    width: 100%;
+}
+
+.home{
+    margin: 280px 0;
+    text-align: center;
+}
+
+.contact {
+    background-color: rgb(224, 213, 213);
+    padding-top: 220px;
+    padding-bottom: 275px;
+    text-align: center;
+}
+
+.resume {
+    text-align: center;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width:100%;
+    background-color: #293542;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+    0%{color: white;}
+    49%{color: white;}
+    60%{color: transparent;}
+    99%{color:transparent;}
+    100%{color: white;}
+}
+
+@media only screen and (max-width: 501px) {
+    h1 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size:11px
+    }
+}
+
+code {
+    color: rgba(255, 255, 255, 0.658);
+}
