@@ -11,7 +11,7 @@ function Nav(props)
       <ul>
         <li><a className={"nava"} href={"#home"}>Home</a></li>
         <li><a className={"nava"} href={"#resume"}>Resumé</a></li>
-        <li><a classname={"nava"}>|</a></li>
+        <li>|</li>
         <li><a className={"nava"} href={"mailto:msanchezmbm@gmail.com"}>Email</a></li>
         <li><a className={"nava"} href={"https://www.linkedin.com/in/michael-sanchez-02282001/"}>LinkedIn</a></li>
         <li><a className={"nava"} href={"https://github.com/DiscardStudio"}>GitHub</a></li>
@@ -54,12 +54,19 @@ function Info(props)
       <div className={"create"}>
         <h1 className={"create"}>Resumé</h1>
       </div>
-      <div classname={"home"} id="resume">
-        <div id="Education">
-
+      <div className={"home"} id="resume">
+        <div>
+          <h1>Education</h1>
         </div>
-        <div id="Work">
-          
+        <hr/>
+        <div>
+          <h1>Work Experience</h1>
+          <p>
+            <b>Stevens Tutor</b> - September 2020 to December 2020<br/>
+            Taught Basic Boolean Algebra and applications of logic gates<br/>
+            Challenged Students to think in new ways<br/>
+            Helped students learn to debug their own code<br/>
+          </p>
         </div>
       </div>
     </div>
